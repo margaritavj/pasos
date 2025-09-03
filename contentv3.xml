@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value="PASOS PARA ACCEDER AL RED"></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_addAccessibilityToolbar"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_addPagination"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_addSearchBox"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_author"></string>
+  <unicode value="Margarita Villegas"></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value="RED (derecha e izquierda)"></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_exportElp"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_extraHeadContent"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_fieldValidationInfo"></string>
+  <dictionary>
+   <unicode role="key" value="all"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_title"></unicode>
+     <unicode value="pp_lang"></unicode>
+     <unicode value="pp_description"></unicode>
+     <unicode value="pp_author"></unicode>
+     <unicode value="pp_newlicense"></unicode>
+    </list>
+   </dictionary>
+   <unicode role="key" value="procomun"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_learningResourceType"></unicode>
+    </list>
+    <unicode role="key" value="values_from_list"></unicode>
+    <dictionary>
+     <unicode role="key" value="pp_learningResourceType"></unicode>
+     <list>
+      <unicode value="master class"></unicode>
+      <unicode value="closed exercise or problem"></unicode>
+      <unicode value="real project"></unicode>
+      <unicode value="didactic game"></unicode>
+      <unicode value="webquest"></unicode>
+      <unicode value="open problem"></unicode>
+      <unicode value="simulation"></unicode>
+      <unicode value="questionnaire"></unicode>
+      <unicode value="conceptual map"></unicode>
+     </list>
+    </dictionary>
+   </dictionary>
+  </dictionary>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="1"></bool>
+  <string role="key" value="_isTemplate"></string>
+  <bool value="1"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tema"></unicode>
+   <unicode value="Sección"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="newPackage"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="1"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="1"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="4">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="RED &quot;DERECHA E IZQUIERDA&quot;"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="PASOS PARA ACCEDER AL RED"></unicode>
+        <string role="key" value="_attributes"></string>
+        <list>
+         <tuple>
+          <string value="title"></string>
+          <list>
+           <string value="Title"></string>
+           <int value="0"></int>
+           <int value="0"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="category"></string>
+          <list>
+           <string value="Category"></string>
+           <int value="0"></int>
+           <int value="1"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="css-class"></string>
+          <list>
+           <string value="CSS class"></string>
+           <int value="0"></int>
+           <int value="2"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="icon"></string>
+          <list>
+           <string value="Icon"></string>
+           <int value="0"></int>
+           <int value="3"></int>
+          </list>
+         </tuple>
+        </list>
+        <string role="key" value="_author"></string>
+        <string value=""></string>
+        <string role="key" value="_iDeviceDir"></string>
+        <string value="mapa-activity"></string>
+        <string role="key" value="_purpose"></string>
+        <string value=""></string>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="_typeName"></string>
+        <unicode value="Map"></unicode>
+        <string role="key" value="_valid"></string>
+        <bool value="1"></bool>
+        <string role="key" value="class_"></string>
+        <unicode value="Mapa"></unicode>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="1"></int>
+        <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+        <int value="1"></int>
+        <string role="key" value="fields"></string>
+        <list>
+         <instance class="exe.engine.field.TextAreaField" reference="3">
+          <dictionary>
+           <string role="key" value="_id"></string>
+           <unicode value="127_2"></unicode>
+           <string role="key" value="_idevice"></string>
+           <reference key="1"></reference>
+           <string role="key" value="_instruc"></string>
+           <string value=""></string>
+           <string role="key" value="_name"></string>
+           <string value=""></string>
+           <string role="key" value="anchor_names"></string>
+           <list></list>
+           <string role="key" value="content_w_resourcePaths"></string>
+           <unicode content="true" value="&lt;div class=&quot;mapa-IDevice&quot;&gt;&lt;div class=&quot;mapa-version js-hidden&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;mapa-instructions gameQP-instructions&quot;&gt;&lt;p&gt;Pulsa sobre las flechas o lupas activos de la imagen para ingresar y realiza las actividades que se plantean siguiente el orden numérico.&lt;/p&gt;
+&lt;p&gt;Te divertirás aprendiendo derecha e izquierda...&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;mapa-DataGame js-hidden&quot;&gt;{&quot;typeGame&quot;:&quot;Mapa&quot;,&quot;instructions&quot;:&quot;&quot;,&quot;showMinimize&quot;:false,&quot;showActiveAreas&quot;:false,&quot;author&quot;:&quot;&quot;,&quot;url&quot;:&quot;resources/WhatsApp_Image_2025-09-03_at_14.58.07.jpeg&quot;,&quot;authorImage&quot;:&quot;&quot;,&quot;altImage&quot;:&quot;&quot;,&quot;itinerary&quot;:{&quot;showClue&quot;:false,&quot;clueGame&quot;:&quot;&quot;,&quot;percentageClue&quot;:40,&quot;showCodeAccess&quot;:false,&quot;codeAccess&quot;:&quot;&quot;,&quot;messageCodeAccess&quot;:&quot;&quot;},&quot;points&quot;:[{&quot;id&quot;:&quot;p253280408593&quot;,&quot;title&quot;:&quot;DERECHA E IZQUIERDA&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.6157385019155649,&quot;y&quot;:0.0999853374888596,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:12,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5?cjc=7cqhuff2&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a253280408593&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p123253988955&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a123253988955&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s123253988955&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s253280408593&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p1651385581123&quot;,&quot;title&quot;:&quot;BIENVENIDOS&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.8877165238935869,&quot;y&quot;:0.33299510178056735,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:13,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5/p/NzgwMzUzODc1MTU0/details&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a1651385581123&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p799026960538&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a799026960538&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s799026960538&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s1651385581123&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p574998502082&quot;,&quot;title&quot;:&quot;UNIDAD #1&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.6322220183990814,&quot;y&quot;:0.5291116362636529,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:12,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/u/0/w/NzgwMTgxOTc4MzE5/tc/NzgwMTgyMDQ2NjA4&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a574998502082&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p999172048625&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a999172048625&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s999172048625&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s574998502082&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p1445075331142&quot;,&quot;title&quot;:&quot;CUERPOLANDIA&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.7091450953221583,&quot;y&quot;:0.8067814206614078,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5/a/NzgwMTgxOTc4MzMx/details&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a1445075331142&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p1076695431110&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a1076695431110&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s1076695431110&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s1445075331142&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p491106119030&quot;,&quot;title&quot;:&quot;¿QUÉ APRENDÍ?&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.9673868011642288,&quot;y&quot;:0.8009562372003944,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5/a/NzgwMjc4MjI0NDc2/details&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a491106119030&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p653739790172&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a653739790172&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s653739790172&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s491106119030&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p694967148312&quot;,&quot;title&quot;:&quot;JUGANDO CON MIS MANOS&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.8410131747906024,&quot;y&quot;:0.9252280818605886,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5/a/NzgwMjg3Mzk2MTEw/details&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a694967148312&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p1020402482792&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a1020402482792&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s1020402482792&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s694967148312&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p975431378852&quot;,&quot;title&quot;:&quot;UNIDAD #2&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.03606811984554752,&quot;y&quot;:0.9485290231056583,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:74,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/u/0/w/NzgwMTgxOTc4MzE5/tc/NzgwMTgxOTc4MzI2&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a975431378852&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p434998965075&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a434998965075&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s434998965075&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s975431378852&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p1255704537860&quot;,&quot;title&quot;:&quot;CAMINO DE HUELLAS&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.3767274605048882,&quot;y&quot;:0.8164902177829186,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:60,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5/m/NzgwMjgxNzU3MDUw/details&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a1255704537860&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p1301143198752&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a1301143198752&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s1301143198752&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s1255704537860&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p609355185543&quot;,&quot;title&quot;:&quot;EL CÓDIGO SECRETO DE LA UBICACIÓN&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.030573614351042024,&quot;y&quot;:0.7504707410497573,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:60,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5/a/ODAxMDE2NTcyMDQw/details&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a609355185543&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p1609547834693&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a1609547834693&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s1609547834693&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s609355185543&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p1470066765151&quot;,&quot;title&quot;:&quot;EL VIAJE DE LOS OBJETOS&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.4646395484169761,&quot;y&quot;:0.734936760467233,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:60,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5/a/NzgwMjgyMTExNDE0/details&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a1470066765151&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p669415913872&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a669415913872&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s669415913872&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s1470066765151&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p995440370883&quot;,&quot;title&quot;:&quot;UNIDAD #3&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.03332086709829477,&quot;y&quot;:0.5349368789820995,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:75,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/u/0/w/NzgwMTgxOTc4MzE5/tc/NzgwMTgxOTc4MzI4&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a995440370883&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p1287708109251&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a1287708109251&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s1287708109251&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s995440370883&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p773768350547&quot;,&quot;title&quot;:&quot;LA AVENTURA SECRETA DE LOS LADOS&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.030573614351042024,&quot;y&quot;:0.3990145044419372,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:60,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5/a/NzgwMjg3NTUxNTg3/details&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a773768350547&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p1031434650767&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a1031434650767&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s1031434650767&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s773768350547&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p1196895974082&quot;,&quot;title&quot;:&quot;VISITANDO LA CIUDAD&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.4399142736917014,&quot;y&quot;:0.3931892395019531,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:60,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5/a/NzgwMTgyMzQzODI3/details&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a1196895974082&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p84908873753&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a84908873753&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s84908873753&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s1196895974082&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p308490168715&quot;,&quot;title&quot;:&quot;EL REY DE LOS LADOS&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.313540647318075,&quot;y&quot;:0.2572669168120449,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:60,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5/a/NzgwMTgxOTc4MzU2/details&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a308490168715&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p728175590940&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a728175590940&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s728175590940&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s308490168715&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;},{&quot;id&quot;:&quot;p827078469299&quot;,&quot;title&quot;:&quot;EVALUACIÓN&quot;,&quot;type&quot;:8,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0.03606811984554752,&quot;y&quot;:0.032024250215697055,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:78,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;https://classroom.google.com/c/NzgwMTgxOTc4MzE5?cjc=7cqhuff2&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a827078469299&quot;,&quot;pts&quot;:[{&quot;id&quot;:&quot;p276848761914&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:0,&quot;url&quot;:&quot;&quot;,&quot;video&quot;:&quot;&quot;,&quot;x&quot;:0,&quot;y&quot;:0,&quot;x1&quot;:0,&quot;y1&quot;:0,&quot;footer&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;iVideo&quot;:0,&quot;fVideo&quot;:0,&quot;eText&quot;:&quot;&quot;,&quot;iconType&quot;:0,&quot;question&quot;:&quot;&quot;,&quot;question_audio&quot;:&quot;&quot;,&quot;toolTip&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;color&quot;:&quot;#000000&quot;,&quot;fontSize&quot;:&quot;14&quot;,&quot;map&quot;:{&quot;id&quot;:&quot;a276848761914&quot;,&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;pts&quot;:[]},&quot;slides&quot;:[{&quot;id&quot;:&quot;s276848761914&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0}],&quot;url&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;active&quot;:0},&quot;slides&quot;:[{&quot;id&quot;:&quot;s827078469299&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;footer&quot;:&quot;&quot;}],&quot;activeSlide&quot;:0,&quot;audio&quot;:&quot;&quot;}],&quot;isScorm&quot;:0,&quot;textButtonScorm&quot;:&quot;Guardar la puntuación&quot;,&quot;repeatActivity&quot;:false,&quot;textAfter&quot;:&quot;&quot;,&quot;evaluation&quot;:0,&quot;selectsGame&quot;:[{&quot;typeSelect&quot;:0,&quot;numberOptions&quot;:4,&quot;quextion&quot;:&quot;&quot;,&quot;options&quot;:[&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;],&quot;solution&quot;:&quot;&quot;,&quot;solutionWord&quot;:&quot;&quot;,&quot;percentageShow&quot;:35,&quot;msgError&quot;:&quot;&quot;,&quot;msgHit&quot;:&quot;&quot;}],&quot;isNavigable&quot;:true,&quot;showSolution&quot;:true,&quot;timeShowSolution&quot;:3,&quot;version&quot;:2,&quot;percentajeIdentify&quot;:100,&quot;percentajeShowQ&quot;:100,&quot;percentajeQuestions&quot;:100,&quot;autoShow&quot;:false,&quot;autoAudio&quot;:true,&quot;optionsNumber&quot;:0,&quot;evaluationF&quot;:false,&quot;evaluationIDF&quot;:&quot;&quot;,&quot;id&quot;:&quot;2025932050300&quot;,&quot;order&quot;:&quot;&quot;,&quot;msgs&quot;:{&quot;msgSubmit&quot;:&quot;Enviar&quot;,&quot;msgIndicateWord&quot;:&quot;Proporcione una palabra o expresión&quot;,&quot;msgClue&quot;:&quot;¡Genial! La pista es:&quot;,&quot;msgErrors&quot;:&quot;Errores&quot;,&quot;msgHits&quot;:&quot;Aciertos&quot;,&quot;msgScore&quot;:&quot;Puntuación&quot;,&quot;msgMinimize&quot;:&quot;Minimizar&quot;,&quot;msgMaximize&quot;:&quot;Maximizar&quot;,&quot;msgFullScreen&quot;:&quot;Pantalla Completa&quot;,&quot;msgNoImage&quot;:&quot;Pregunta sin imágenes&quot;,&quot;msgSuccesses&quot;:&quot;¡Correcto! | ¡Excelente! | ¡Genial! | ¡Muy bien! | ¡Perfecto!&quot;,&quot;msgFailures&quot;:&quot;¡No era eso! | ¡Incorrecto! | ¡No es correcto! | ¡Lo sentimos! | ¡Error!&quot;,&quot;msgTryAgain&quot;:&quot;Necesita al menos un %s% de respuestas correctas para conseguir la información. Vuelva a intentarlo.&quot;,&quot;msgEndGameScore&quot;:&quot;Antes de guardar la puntuación comience la partida.&quot;,&quot;msgScoreScorm&quot;:&quot;La puntuación no se puede guardar porque esta página no forma parte  de un paquete SCORM.&quot;,&quot;msgPoint&quot;:&quot;Punto&quot;,&quot;msgAnswer&quot;:&quot;Responder&quot;,&quot;msgOnlySaveScore&quot;:&quot;¡Sólo puede guardar la puntuación una vez!&quot;,&quot;msgOnlySave&quot;:&quot;Sólo puede guardar una vez&quot;,&quot;msgInformation&quot;:&quot;Información&quot;,&quot;msgYouScore&quot;:&quot;Su puntuación&quot;,&quot;msgOnlySaveAuto&quot;:&quot;Su puntuación se guardará después de cada pregunta. Sólo puede jugar una vez.&quot;,&quot;msgSaveAuto&quot;:&quot;Su puntuación se guardará automáticamente después de cada pregunta.&quot;,&quot;msgSeveralScore&quot;:&quot;Puede guardar la puntuación tantas veces como quiera&quot;,&quot;msgYouLastScore&quot;:&quot;La última puntuación guardada es&quot;,&quot;msgActityComply&quot;:&quot;Ya ha realizado esta actividad.&quot;,&quot;msgPlaySeveralTimes&quot;:&quot;Puede realizar esta actividad cuantas veces quiera&quot;,&quot;msgClose&quot;:&quot;Cerrar&quot;,&quot;msgPoints&quot;:&quot;puntos&quot;,&quot;msgPointsA&quot;:&quot;Puntos&quot;,&quot;msgQuestions&quot;:&quot;Preguntas&quot;,&quot;msgAudio&quot;:&quot;Audio&quot;,&quot;msgAccept&quot;:&quot;Aceptar&quot;,&quot;msgYes&quot;:&quot;Sí&quot;,&quot;msgNo&quot;:&quot;No&quot;,&quot;msgShowAreas&quot;:&quot;Mostrar áreas activas&quot;,&quot;msgShowTest&quot;:&quot;Mostrar cuestionario&quot;,&quot;msgGoActivity&quot;:&quot;Pulsa aquí para realizar esta actividad&quot;,&quot;msgSelectAnswers&quot;:&quot;Selecciona las opciones correctas y pulsa sobre el botón 'Responder'.&quot;,&quot;msgCheksOptions&quot;:&quot;Marca todas las opciones en el orden adecuado y pulsa sobre el botón 'Responder'.&quot;,&quot;msgWriteAnswer&quot;:&quot;Escribe la palabra o expresión correcta y pulsa en el botón 'Responder'.&quot;,&quot;msgIdentify&quot;:&quot;Identifica&quot;,&quot;msgSearch&quot;:&quot;Buscar&quot;,&quot;msgClickOn&quot;:&quot;Pulsa sobre&quot;,&quot;msgReviewContents&quot;:&quot;Debes repasar el %s% de los contenidos de la actividad antes de completar el cuestionario.&quot;,&quot;msgScore10&quot;:&quot;¡Todo perfecto! ¡Enhorabuena! ¿Deseas repetir esta actividad?&quot;,&quot;msgScore4&quot;:&quot;No has superado esta prueba. Repasa sus contenidos e inténtalo de nuevo. ¿Deseas repetir la actividad?&quot;,&quot;msgScore6&quot;:&quot;¡Estupendo! Has superado la prueba, pero seguro que lo puedes mejorar. ¿Deseas repetir esta actividad?&quot;,&quot;msgScore8&quot;:&quot;¡Casi perfecto! Aún lo puedes hacer mejor. ¿Deseas repetir esta actividad?&quot;,&quot;msgNotCorrect&quot;:&quot;¡No es correcto! Has pulsado sobre&quot;,&quot;msgNotCorrect1&quot;:&quot;¡No es correcto! Has pulsado sobre&quot;,&quot;msgNotCorrect2&quot;:&quot;y la respuesta correcta es&quot;,&quot;msgNotCorrect3&quot;:&quot;¡Prueba otra vez!&quot;,&quot;msgAllVisited&quot;:&quot;¡Genial! Has visitado los puntos necesarios.&quot;,&quot;msgCompleteTest&quot;:&quot;Puedes completar el cuestionario.&quot;,&quot;msgPlayStart&quot;:&quot;Pulse aquí para empezar&quot;,&quot;msgSubtitles&quot;:&quot;Subtítulos&quot;,&quot;msgSelectSubtitles&quot;:&quot;Selecciona un archivo de subtítulos. Formatos válidos:&quot;,&quot;msgNumQuestions&quot;:&quot;Número de preguntas&quot;,&quot;msgHome&quot;:&quot;Inicio&quot;,&quot;msgReturn&quot;:&quot;Volver&quot;,&quot;msgCheck&quot;:&quot;Comprobar&quot;,&quot;msgUncompletedActivity&quot;:&quot;Actividad no completada&quot;,&quot;msgSuccessfulActivity&quot;:&quot;Actividad superada. Puntuación: %s&quot;,&quot;msgUnsuccessfulActivity&quot;:&quot;Actividad no superada. Puntuación: %s&quot;,&quot;msgTypeGame&quot;:&quot;Mapa&quot;}}&lt;/div&gt;&lt;img src=&quot;resources/WhatsApp_Image_2025-09-03_at_14.58.07.jpeg&quot; class=&quot;js-hidden mapa-ImageMap&quot; data-id=&quot;0&quot; /&gt;&lt;div class=&quot;mapa-bns js-hidden&quot;&gt;Su navegador no es compatible con esta herramienta.&lt;/div&gt;&lt;/div&gt;"></unicode>
+           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+           <int value="4"></int>
+           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="htmlTag"></string>
+           <string value="div"></string>
+           <string role="key" value="images"></string>
+           <instance class="exe.engine.galleryidevice.GalleryImages">
+            <dictionary>
+             <string role="key" value=".listitems"></string>
+             <list>
+              <instance class="exe.engine.galleryidevice.GalleryImage">
+               <dictionary>
+                <string role="key" value="_caption"></string>
+                <instance class="exe.engine.field.TextField">
+                 <dictionary>
+                  <string role="key" value="_id"></string>
+                  <int value="238"></int>
+                  <string role="key" value="_idevice"></string>
+                  <none></none>
+                  <string role="key" value="_instruc"></string>
+                  <string value=""></string>
+                  <string role="key" value="_name"></string>
+                  <string value=""></string>
+                  <string role="key" value="content"></string>
+                  <string value=""></string>
+                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                  <int value="4"></int>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_id"></string>
+                <unicode value="0_127_2.0"></unicode>
+                <string role="key" value="_imageResource"></string>
+                <instance class="exe.engine.resource.Resource" reference="5">
+                 <dictionary>
+                  <string role="key" value="_idevice"></string>
+                  <reference key="1"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="2"></reference>
+                  <string role="key" value="_storageName"></string>
+                  <string value="WhatsApp_Image_2025-09-03_at_14.58.07.jpeg"></string>
+                  <string role="key" value="_userName"></string>
+                  <string value="c:\\users\\julia\\appdata\\local\\temp\\tmp2d_ayw.eXe\\previews\\allyourbase\\WhatsApp_Image_2025-09-03_at_14.58.07.jpeg"></string>
+                  <string role="key" value="checksum"></string>
+                  <string value="9702a685e8e237f1316bc72183cfc7a8"></string>
+                  <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="warningMsg"></string>
+                  <string value=""></string>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_parent"></string>
+                <reference key="3"></reference>
+                <string role="key" value="_thumbnailResource"></string>
+                <none></none>
+                <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="makeThumbnail"></string>
+                <bool value="0"></bool>
+               </dictionary>
+              </instance>
+             </list>
+             <string role="key" value="idevice"></string>
+             <reference key="3"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="intlinks_to_anchors"></string>
+           <dictionary></dictionary>
+           <string role="key" value="nextImageId"></string>
+           <int value="2"></int>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="icon"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="id"></string>
+        <unicode value="0"></unicode>
+        <string role="key" value="ideviceCategory"></string>
+        <unicode value="Games"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="nextFieldId"></string>
+        <int value="3"></int>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parentNode"></string>
+        <reference key="4"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list>
+         <reference key="5"></reference>
+        </list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="2"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="singlepage"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:RED%20%22DERECHA%20E%20IZQUIERDA%22"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list></list>
+    </dictionary>
+   </instance>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_templateFile"></string>
+  <string value="Base"></string>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="4"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value="Margarita Villegas"></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value="RED (derecha e izquierda)"></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value="PASOS PARA ACCEDER AL RED"></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="16"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="creative commons: attribution - share alike 4.0"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.descriptionSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="RED (derecha e izquierda)"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="PASOS PARA ACCEDER AL RED"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="6">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2025-09-03T15:31:11.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="7">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Margarita Villegas EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="8">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <reference key="6"></reference>
+         <string role="key" value="entity"></string>
+         <list>
+          <reference key="7"></reference>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <reference key="8"></reference>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <none></none>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="yes"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.descriptionSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="RED (derecha e izquierda)"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="PASOS PARA ACCEDER AL RED"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="9">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2025-09-03T15:31:11.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="10">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Margarita Villegas EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="11">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <reference key="9"></reference>
+         <string role="key" value="entity"></string>
+         <list>
+          <reference key="10"></reference>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <reference key="11"></reference>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="en"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Default"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="creative commons: attribution - share alike"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="release"></string>
+  <string value="2.9"></string>
+  <string role="key" value="resources"></string>
+  <dictionary>
+   <string role="key" value="9702a685e8e237f1316bc72183cfc7a8"></string>
+   <list>
+    <reference key="5"></reference>
+   </list>
+  </dictionary>
+  <string role="key" value="root"></string>
+  <reference key="4"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="kids"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>
